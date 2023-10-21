@@ -1,0 +1,67 @@
+
+
+body {
+    background-image: url("other/tarkov2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.armor, .weapon, .bag, .helmet {
+    z-index: 1;
+}
+
+body{
+    text-align: center;
+    display: block;
+    
+}
+.armor{
+    position: absolute;
+    top: 10%;
+    left: 20%;
+}
+.weapon{
+    position: absolute;
+    top: 65%; 
+    right: 20%;
+}
+.bag{
+    position: absolute;
+    top: 10%; 
+    right: 20%; 
+}
+.helmet{
+    position: absolute;
+    top: 59%; 
+    left: 20%; 
+}
+.map{
+    position: relative;
+    margin-top: 10%;  
+    
+}
+.zdjecie{
+    max-width: 40vh;
+    min-width: 20vh;
+}
+.roll{
+    align-items: center;
+    font-size: 3vh;
+}
+#button1{
+    margin-top: 2vh;
+    font-size: 5vh;
+    border-radius: 20px;
+    text-align: center;
+    background-color: rgb(23, 112, 112);
+    -webkit-box-shadow: -2px 10px 24px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: -2px 10px 24px 0px rgba(66, 68, 90, 1);
+box-shadow: -2px 10px 24px 0px rgba(66, 68, 90, 1);
+}
+#button1:hover{
+    background-color: rgb(30, 76, 76);
+}
+#map_name{
+    font-size: 3em;
+}
